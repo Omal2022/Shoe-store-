@@ -3,11 +3,12 @@ export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontfamily: {
+      fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        Pmark: ['Permanent Marker', 'cursive']
+        cur: ["Caveat", 'cursive']
       },
     },
   },
   plugins: [],
 }
+
