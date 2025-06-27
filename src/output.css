@@ -641,6 +641,11 @@ video {
   height: 2.5rem;
 }
 
+.size-4{
+  width: 1rem;
+  height: 1rem;
+}
+
 .h-\[260px\]{
   height: 260px;
 }
@@ -657,6 +662,10 @@ video {
   height: 100%;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .w-36{
   width: 9rem;
 }
@@ -667,6 +676,22 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.scale-50{
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-150{
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform{
@@ -701,6 +726,10 @@ video {
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
@@ -723,6 +752,30 @@ video {
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-40{
+  gap: 10rem;
+}
+
+.gap-24{
+  gap: 6rem;
+}
+
+.gap-32{
+  gap: 8rem;
+}
+
+.gap-\[\]{
+  gap: ;
+}
+
+.gap-\[9em\]{
+  gap: 9em;
+}
+
+.gap-\[20em\]{
+  gap: 20em;
 }
 
 .rounded-2xl{
@@ -877,6 +930,25 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.underline{
+  text-decoration-line: underline;
+}
+
 .shadow-xl{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -935,6 +1007,12 @@ video {
 .hover\:bg-red-950:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(69 10 10 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 640px){
+  .sm\:items-center{
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px){
@@ -1056,6 +1134,18 @@ video {
 @media (min-width: 1024px){
   .lg\:flex{
     display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:items-center{
+    align-items: center;
+  }
+
+  .lg\:justify-between{
+    justify-content: space-between;
   }
 }
 
